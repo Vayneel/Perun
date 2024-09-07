@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainLabel"
+        style="@style/LabelStyleBase"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="@color/main"
+        android:text="@string/mainLabelText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/todayLabel"
+        style="@style/LabelStyleSmallHeading"
+        android:layout_marginTop="30dp"
+        android:text="@string/scheduleLabelToday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainLabel" />
+
+    <ImageView
+        android:id="@+id/todayImage"
+        android:layout_width="400dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/todayLabel"
+        app:srcCompat="@drawable/schedule_preview" />
+
+    <TextView
+        android:id="@+id/tomorrowLabel"
+        style="@style/LabelStyleSmallHeading"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/scheduleLabelTomorrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/todayImage" />
+
+    <ImageView
+        android:id="@+id/tomorrowImage"
+        android:layout_width="400dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tomorrowLabel"
+        app:srcCompat="@drawable/schedule_preview" />
+
+    <Button
+        android:id="@+id/mainButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="@color/main"
+        android:text="@string/mainButtonText"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

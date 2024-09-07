@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Schedules Of Blackouts</string>
+    <string name="mainLabelText">VAYNEEL\'S SCHEDULES OF BLACKOUTS</string>
+    <string name="scheduleLabelToday">Today</string>
+    <string name="scheduleLabelTomorrow">Tomorrow</string>
+    <string name="mainButtonText">UPDATE</string>
+</resources>
