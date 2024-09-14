@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Perun</string>
-    <string name="mainLabelText">VAYNEEL\'S SCHEDULES OF BLACKOUTS</string>
+    <string name="mainLabelText">SCHEDULES OF BLACKOUTS</string>
     <string name="scheduleLabelToday">Today</string>
     <string name="scheduleLabelTomorrow">Tomorrow</string>
     <string name="mainButtonText">UPDATE</string>
+    <string name="updateToast">Updated</string>
 </resources>

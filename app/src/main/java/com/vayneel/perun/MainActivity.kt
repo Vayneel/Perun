@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 
         mainButton.setOnClickListener {
             updateImages()
-            Toast.makeText(this, "Updated", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.updateToast), Toast.LENGTH_SHORT).show()
         }
 
 //        todayImage.setOnClickListener {

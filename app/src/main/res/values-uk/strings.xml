@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Перун</string>
+    <string name="mainLabelText">ГРАФІКИ ВІДКЛЮЧЕНЬ</string>
+    <string name="scheduleLabelToday">Сьогодні</string>
+    <string name="scheduleLabelTomorrow">Завтра</string>
+    <string name="mainButtonText">ОНОВИТИ</string>
+    <string name="updateToast">Оновлено</string>
+</resources>
